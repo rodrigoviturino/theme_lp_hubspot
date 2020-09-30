@@ -1,0 +1,66 @@
+.pageHome{
+
+    &__intro{
+        background-image: url("assets/images/banner_LP_PSA.webp");
+        background-position: initial;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 150px 0 250px;
+        position: relative;
+        top: 95px;
+
+        &__block-title{
+            h1{
+                font-weight: 800;
+                line-height: 50px;
+                color: #1f3045;
+                // width: 56%;
+                margin-bottom: map-get($spacers, 4);
+                @include responsive-font-size(40px);
+            }
+            p{
+                font-weight: 500;
+                line-height: 26px;
+                color: #1f3045;
+                width: 60%;
+                @include responsive-font-size(16px);
+            }
+        }
+
+        &__form{
+            form{
+                background-color: #fff;
+                padding: 20px;
+                // box-shadow: rgba(0,0,0,.2) 0px 10px 20px -8px;
+
+                label{
+                    font-weight: 700;
+                    @include responsive-font-size(14px);
+                }
+
+                .labelTermoPolitica{
+                    margin-bottom: map-get($spacers, 3);
+                    label{
+                        font-weight: 600;
+                        @include responsive-font-size(12px);
+                    }
+                }
+
+                .enviar{
+                    background-color: #A5DBD7;
+                    border: solid 1px #A5DBD7;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    @include responsive-font-size(16px);
+
+                    &:hover{
+                        color: #A5DBD7;
+                        background-color: #fff;
+                        border: solid 1px #A5DBD7;
+                    }
+                }
+            }
+        }
+    }
+
+}
