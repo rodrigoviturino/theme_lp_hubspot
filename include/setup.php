@@ -11,6 +11,7 @@ function ln_theme_styles(){
     // JAVASCRIPT
     wp_enqueue_script( "jquery_js", $directory . "/assets/js/lib/jquery-3.5.1.min.js", $version, true );
     wp_enqueue_script( "main_js", $directory . "/assets/js/main.js", $version, ["jquery_js"] , true);
+    wp_enqueue_script( "fontawesome", "https://kit.fontawesome.com/db192ad007.js", $version, [] , true);
 }
 
 function ln_after_setup(){

@@ -61,5 +61,29 @@
     </section>
     <!-- end Intro -->
 
+
+    <!-- Materials -->
+    <section class="pageHome__materials">
+        <div class="container">
+            <div class="pageHome__materials__block-title">
+                <h2>Você merece mais qualidade de vida</h2>
+                <p>Além do guia, criamos materiais que vão te ajudar a conviver melhor com a doença e também oferecemos outras formas de apoio. Tudo totalmente gratuito.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 pageHome__materials__card">
+                    <div class="image">
+                        <i class="fas fa-map-marker-alt fa-3x"></i>
+                    </div>
+                    <div class="infos">
+                        <h3>Especialistas</h3>
+                        <p>Precisando de ajuda para encontrar reumatologistas?</p>
+                        <a href="https://conteudos.novartis.com.br/redirect/ap/lp_obrigado/sbr?hsLang=pt"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Materials -->
+
 </main>
 <?php get_footer(); ?>

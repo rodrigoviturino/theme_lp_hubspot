@@ -51,6 +51,9 @@
                     border: solid 1px #A5DBD7;
                     text-transform: uppercase;
                     font-weight: 700;
+                    border-radius: 6px;
+                    padding: map-get($spacers, 3) 0;
+                    color: #222;
                     @include responsive-font-size(16px);
 
                     &:hover{
@@ -58,6 +61,41 @@
                         background-color: #fff;
                         border: solid 1px #A5DBD7;
                     }
+                }
+            }
+        }
+    }
+
+
+    &__materials{
+        &__block-title{
+            h2{
+                color: #000;
+            }
+            p{
+                color: #000;
+            }
+        }
+
+        &__card{
+            .image{
+
+            }
+
+            .infos{
+                h3{
+                    color: #222;
+                    text-transform: capitalize;
+                    @include responsive-font-size(18px);
+                }
+                p{
+                    color: #858383;
+                    font-weight: 300;
+                    line-height: 24px;
+                    @include responsive-font-size(14px);
+                }
+                a{
+
                 }
             }
         }

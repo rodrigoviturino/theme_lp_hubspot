@@ -14660,10 +14660,30 @@ img {
   }
 }
 .footer {
-  background-color: #313B48;
-  padding: 10px 0;
-  color: #fff;
+  background-color: #0460A9;
+  padding: 30px 0 20px;
   text-align: center;
+}
+.footer__logoRodape {
+  padding-bottom: 1rem;
+}
+.footer__logoRodape a {
+  display: block;
+}
+.footer__logoRodape a img {
+  margin: 0 auto;
+  width: 200px;
+}
+.footer__infos p {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+}
+.footer__infos p a {
+  color: #6fa8dc;
+  text-decoration: underline;
+  font-size: 0.75rem;
 }
 
 .pageHome__intro {
@@ -14709,6 +14729,9 @@ img {
   border: solid 1px #A5DBD7;
   text-transform: uppercase;
   font-weight: 700;
+  border-radius: 6px;
+  padding: 1rem 0;
+  color: #222;
   font-size: 1rem;
 }
 .pageHome__intro__form form .enviar:hover {
@@ -14716,9 +14739,24 @@ img {
   background-color: #fff;
   border: solid 1px #A5DBD7;
 }
-
+.pageHome__materials__block-title h2 {
+  color: #000;
+}
+.pageHome__materials__block-title p {
+  color: #000;
+}
+.pageHome__materials__card .infos h3 {
+  color: #222;
+  text-transform: capitalize;
+  font-size: 1.125rem;
+}
+.pageHome__materials__card .infos p {
+  color: #858383;
+  font-weight: 300;
+  line-height: 24px;
+  font-size: 0.875rem;
+}
 /* end Website */
 body {
   font-family: "Montserrat", sans-serif;
-  height: 2000px;
 }
