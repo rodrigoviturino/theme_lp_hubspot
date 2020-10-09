@@ -6,7 +6,7 @@ function ln_theme_styles(){
 
     // CSS
     wp_enqueue_style( "theme_css", $directory . "/style.css", array(), $version, false );
-    // wp_enqueue_style( "fontawesome_css", $directory . "/style.css", array(), $version, false );
+    wp_enqueue_style( "fontawesome_css", "https://kit.fontawesome.com/db192ad007.js", array(), $version, false );
 
     // JAVASCRIPT
     wp_enqueue_script( "jquery_js", $directory . "/assets/js/lib/jquery-3.5.1.min.js", $version, true );

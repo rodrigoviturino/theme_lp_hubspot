@@ -14691,9 +14691,11 @@ img {
   background-position: initial;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 150px 0 250px;
+  padding: 150px 0 0;
   position: relative;
   top: 95px;
+  height: 100vh;
+  max-width: 100%;
 }
 .pageHome__intro__block-title h1 {
   font-weight: 800;
@@ -14725,8 +14727,8 @@ img {
   font-size: 0.75rem;
 }
 .pageHome__intro__form form .enviar {
-  background-color: #A5DBD7;
-  border: solid 1px #A5DBD7;
+  background-color: #a5dbd7;
+  border: solid 1px #a5dbd7;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 6px;
@@ -14735,27 +14737,95 @@ img {
   font-size: 1rem;
 }
 .pageHome__intro__form form .enviar:hover {
-  color: #A5DBD7;
+  color: #a5dbd7;
   background-color: #fff;
-  border: solid 1px #A5DBD7;
+  border: solid 1px #a5dbd7;
+}
+.pageHome__materials {
+  padding-top: 130px;
+}
+.pageHome__materials__block-title {
+  text-align: center;
+  padding-bottom: 100px;
 }
 .pageHome__materials__block-title h2 {
   color: #000;
+  font-weight: 700;
+  line-height: 38px;
+  font-size: 1.5rem;
 }
 .pageHome__materials__block-title p {
+  font-weight: 300;
   color: #000;
+  max-width: 80%;
+  margin: 0 auto;
+  line-height: 26px;
+  font-size: 1rem;
+}
+.pageHome__materials__card {
+  margin-bottom: 80px;
+  text-align: center;
+  transition: all 0.5s;
+  padding: 60px 0;
+}
+.pageHome__materials__card:hover {
+  box-shadow: 1px, 2px, 2px, #000;
+  transition: all 0.5s;
+  box-shadow: 0 10px 25px 10px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-8px);
+  border-radius: 15px;
+}
+.pageHome__materials__card:hover .image {
+  background-color: #a5dbd7;
+  transition: all 0.5s;
+}
+.pageHome__materials__card:hover .image i {
+  color: #fff;
+  transition: all 0.5s;
+}
+.pageHome__materials__card .image {
+  background-color: #f7f6f4;
+  border-radius: 91px;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+.pageHome__materials__card .image i {
+  color: #a5dbd7;
+  transition: all 0.5s;
+}
+.pageHome__materials__card .infos {
+  margin: 20px 0;
 }
 .pageHome__materials__card .infos h3 {
   color: #222;
+  font-weight: 700;
+  margin: 10px 0;
   text-transform: capitalize;
   font-size: 1.125rem;
 }
 .pageHome__materials__card .infos p {
   color: #858383;
   font-weight: 300;
+  width: 250px;
+  margin: 0 auto;
   line-height: 24px;
   font-size: 0.875rem;
 }
+.pageHome__materials__card .infos a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0460a9;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
 /* end Website */
 body {
   font-family: "Montserrat", sans-serif;
